@@ -11,7 +11,7 @@ namespace DataAccessLayer.Contcrete
     public class Context:DbContext
     {
         public DbSet<About> Abouts { get; set; }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; }k
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Content> Contents { get; set; }
         public DbSet<Heading> Headings { get; set; }
